@@ -16,7 +16,7 @@ Plataforma bancaria completa con ticker financiero en tiempo real, POS virtual i
 
 ## Características
 
-- **Ticker financiero** — Animación 60 FPS continua con datos ON, CAD/MXN, BTC, ETH, XRP, LTC, DOT, ADA
+- **Ticker financiero** — Animación 60 FPS continua con datos 6ON, CAD/MXN, BTC, ETH, XRP, LTC, DOT, ADA
 - **POS Virtual** — Procesamiento VISA/MC/AMEX con CVV2, PIN y generación automática de códigos de autorización
 - **Protocolos bancarios** — 9 protocolos EMV/PCI DSS (101.x transferencias, 201.x pagos, 301.x depósitos, 401.x retiros)
 - **Tokens de seguridad** — AES-256, formato `TOK-{timestamp}-{hash}`, expiración 24h
@@ -144,5 +144,10 @@ GITHUB_PERSONAL_ACCESS_TOKEN=ghp_... node sync-github.mjs
 | Saldo disponible | $50.00.00 USD |
 
 ---
+Fallo la importación del servidor código raíz  Banxico Plus LLC 
+Tax ID company  Laredo TX 
+
+acción requerida: pago por dominio independiente $750 USD 
+
 
 **Banxico Plus LLC** — Sistema Bancario Enterprise | Versión 2.0
