@@ -141,7 +141,7 @@ GITHUB_PERSONAL_ACCESS_TOKEN=ghp_... node sync-github.mjs
 |-------|-------|
 | Usuario | Admin |
 | Contraseña | Keylog100$ |
-| Saldo disponible | $1,250,000.00 USD |
+| Saldo disponible | $50.00.00 USD |
 
 ---
 
