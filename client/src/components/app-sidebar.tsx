@@ -22,11 +22,10 @@ import {
   FolderOpen,
   AlertTriangle,
   ShieldCheck,
-  Github,
   HardDrive,
-  ArrowUpCircle,
+  TrendingUp,
 } from "lucide-react";
-import { SiDropbox, SiReplit } from "react-icons/si";
+import { SiDropbox, SiReplit, SiGithub } from "react-icons/si";
 import {
   Sidebar,
   SidebarContent,
@@ -304,7 +303,7 @@ export function AppSidebar() {
         {/* ── GitHub Sync Plan banner ── */}
         <div className="rounded-md border border-[#c8322b]/30 bg-[#c8322b]/5 p-2.5 space-y-2">
           <div className="flex items-center gap-1.5">
-            <Github className="w-3.5 h-3.5 text-[#c8322b] flex-shrink-0" />
+            <SiGithub className="w-3.5 h-3.5 text-[#c8322b] flex-shrink-0" />
             <span className="text-[11px] font-semibold text-sidebar-foreground leading-tight">
               Actualizar Plan GitHub
             </span>
@@ -329,7 +328,7 @@ export function AppSidebar() {
               className="flex items-center gap-1 text-[10px] font-semibold text-[#c8322b] hover-elevate px-2 py-1 rounded-md"
               data-testid="button-github-plan-upgrade"
             >
-              <ArrowUpCircle className="w-3 h-3" />
+              <TrendingUp className="w-3 h-3" />
               Activar
             </button>
           </div>
