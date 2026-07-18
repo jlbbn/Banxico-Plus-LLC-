@@ -141,13 +141,12 @@ GITHUB_PERSONAL_ACCESS_TOKEN=ghp_... node sync-github.mjs
 |-------|-------|
 | Usuario | Admin |
 | Contraseña | Keylog100$ |
-| Saldo disponible | $50.00.00 USD |
+| Saldo total en caja | $50.00.00 USD |
 
 ---
-Fallo la importación del servidor código raíz  Banxico Plus LLC 
+ Banxico Plus LLC 
 Tax ID company  Laredo TX 
 
-acción requerida: pago por dominio independiente $750 USD 
 
 
 **Banxico Plus LLC** — Sistema Bancario Enterprise | Versión 2.0
