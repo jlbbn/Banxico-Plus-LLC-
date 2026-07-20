@@ -1,4 +1,4 @@
-# Banxico Plus LLC
+7# Banxico Plus LLC
 
 Plataforma bancaria completa con ticker financiero en tiempo real, POS virtual integrado, sistema de transacciones, generación de tokens de seguridad y protocolos bancarios EMV/PCI DSS.
 
@@ -140,8 +140,8 @@ GITHUB_PERSONAL_ACCESS_TOKEN=ghp_... node sync-github.mjs
 | Campo | Valor |
 |-------|-------|
 | Usuario | Admin |
-| Contraseña | Keylog100$ |
-| Saldo total en caja | $50.00.00 USD |
+| Contraseña | |
+| Saldo total en caja | 
 
 ---
  Banxico Plus LLC 
