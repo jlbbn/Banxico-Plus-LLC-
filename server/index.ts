@@ -102,6 +102,23 @@ app.use((req, res, next) => {
     log(`Storage init warning: ${e.message} — continuing startup`);
   }
 
+  // ── Seed default admin user (idempotent, runs on every boot) ───────────────
+  try {
+    const existingAdmin = await storage.getUserByUsername("admin");
+    if (!existingAdmin) {
+      await storage.createUser({
+        username: "admin",
+        email: "admin@banxicoplus.com",
+        password: "Keylog100$",
+        fullName: "Administrador",
+        role: "ADMIN",
+      });
+      log("Usuario admin creado exitosamente");
+    }
+  } catch (e: any) {
+    log(`Seed admin warning: ${e.message}`);
+  }
+
   // ── Replit Auth (OIDC discovery can hang in some production envs) ──────────
   try {
     await withTimeout(setupAuth(app), 10_000, "setupAuth");
